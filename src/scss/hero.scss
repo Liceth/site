@@ -1,0 +1,21 @@
+.hero {
+
+    $self:&; 
+
+    &__wrapper {
+        align-items: center;
+        display: flex;
+        flex-direction: row-reverse;
+        height: 400px;
+    }
+    
+    &__content{
+        flex-basis: 50%;
+        box-sizing: border-box;
+    } 
+    
+    &__image {
+        height: auto;
+        width: 200px
+    }
+}

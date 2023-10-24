@@ -1,17 +1,21 @@
-import './App.css';
-import { Header } from './components/header';
-import { Hero } from './components/hero';
-import { CardSlider } from './components/card-slider';
-import { Footer } from './components/footer';
+import './App.scss';
+import './scss/header.scss';
+
+import { React }from 'react';
+import Header from './components/header.tsx';
+import  HomePage from './pages/home.tsx';
+import Footer from './components/footer.tsx';
+
 
 function App() {
   return (
-    <div className="App">
-      <Header></Header>
-      <Hero></Hero>
-      <CardSlider></CardSlider>
-      <Footer></Footer>
-    </div>
+    <>
+      <Header/>
+      <main>
+        <HomePage/>
+      </main>
+      <Footer/> 
+    </>
   );
 }
 

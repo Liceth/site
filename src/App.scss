@@ -1,3 +1,5 @@
+@import  'scss/header.scss';
+
 .App {
   text-align: center;
 }
@@ -300,15 +302,15 @@ hr {
 .card a:hover {
   transform: scale(0.94);
 }
-.delay0-1{
+.delay0-1 {
   --delay:-1;
 }
 
-.delay0{
+.delay0 {
   --delay:0;
 }
 
-.delay1{
+.delay1 {
   --delay:1;
 }
 
