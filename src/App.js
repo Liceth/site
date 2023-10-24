@@ -9,13 +9,13 @@ import Footer from './components/footer.tsx';
 
 function App() {
   return (
-    <>
+    <div>
       <Header/>
       <main>
         <HomePage/>
       </main>
       <Footer/> 
-    </>
+    </div>
   );
 }
 
