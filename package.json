@@ -13,7 +13,7 @@
     "@types/react-dom": "^18.2.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^3.0.1",
     "typescript": "^5.0.4",
     "web-vitals": "^2.1.4"
   },
@@ -42,7 +42,7 @@
     ]
   },
   "devDependencies": {
-    "node-sass": "^7.0.3",
+    "node-sass": "^9.0.0",
     "sass-loader": "^13.2.2"
   }
 }
